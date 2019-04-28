@@ -1,0 +1,148 @@
+*{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+html, body{
+  height: 100%;
+
+}
+
+
+.main{
+  overflow:auto;
+  padding-bottom:50px;
+ 
+}
+
+/* LOGO */
+.logo {
+  display:flex;
+  flex-wrap:wrap;
+  width:80px;
+  margin: 30px 10px;
+  float: left;
+
+}
+.box {
+  width:30px;
+  height:30px;
+}
+
+.black{
+  background-color:black;
+}
+.color2{
+  background-color:rgb(93, 173, 143); 
+ }
+
+.navbar-brand{
+  color: #5a0e0e;
+  font-weight:bold;
+  font-size: 2.2em !important; 
+}
+/* styling button */
+ .btn-primary{
+   background-color: #f3bebe !important;
+ }
+
+/* Navigation section! */
+nav {
+    background-color: rgb(206, 54, 54);
+    /* overflow: hidden; */
+    margin-bottom: 0;
+
+ 
+}
+
+
+.nav-item{
+    font-size:20px;
+    line-height: 100px;
+
+}
+
+.nav-link  {
+    display: block;
+    color: #1e1e1e;
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-weight: bold;
+    }
+
+/* Change the link color on hover */
+.nav-link:hover {
+    background-color: rgba(98, 221, 139, 0.705);
+    color: white !important;
+    font-weight: bold;
+}
+
+/* fixed background */
+
+section.cover{
+  height: 40vh;
+  background:url("https://allhdwallpapers.com/wp-content/uploads/2015/05/Candle-2.jpg") fixed center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ /* Main section for a primary marketing message / description  */
+
+
+.message{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:2em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+
+/* Quotation Area */
+.blockquote-section{
+  width: 70%;
+  float: right;
+  margin-left:-40px;
+  padding-left:-40px;
+}
+.quoteArea{
+  padding-top:30px;
+}
+
+
+hr.line { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+h1{
+  padding-bottom:23px; 
+  text-align: center;
+  font:4em cursive;
+  color:firebrick;
+  font-size:2.5em !important;
+
+}
+
+/* footer */
+
+.social ul{
+ display: flex;
+}
+
+.social li{
+ 
+  font-size:20px;
+  padding-left:20px;
+
+}
+
+#footer{
+  background-color:rgb(211, 188, 188);
+  height: 100px;
+  margin-top:50px;
+ 
+}
